@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<aiml>
+<!--author: Areej-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>I * </pattern>
+	<template><random>
+			<li>I do not <star /></li>
+			<li>Do I <star />?</li>
+		</random></template>
+</category>
+<category>
+	<pattern>I AM * </pattern>
+	<template>
+		<random>
+			<li>I am not <star /></li>
+			<li>Am I <star />?</li>
+		</random></template>
+</category>
+</aiml>
